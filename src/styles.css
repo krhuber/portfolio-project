@@ -62,19 +62,29 @@ p {
   padding: 12px 20px;
 }
 .project-description {
-  padding: 120px 60px;
+  padding: 80px 60px;
 }
 .fitness-image {
   background: #cbfaf5;
   padding: 40px 80px;
 }
+.fitness-project {
+  font-size: 50px;
+}
+
 .weather-image {
   background: #cbfaf5;
-  padding: 60px 60px;
+  padding: 30px 60px;
+}
+.weather-project {
+  font-size: 50px;
 }
 .dictionary-image {
   background: var(--secondary-color);
   padding: 30px;
+}
+.dictionary-project {
+  font-size: 50px;
 }
 
 @media (max-width: 900px) {
