@@ -57,7 +57,25 @@ p {
   font-size: 18px;
   font-family: var(--default-font-family);
 }
-.about-section-content {
+.about-section-container {
+  margin: 30px;
+}
+.work-container {
+  margin: 100px;
+}
+.content-container {
+  text-align: center;
+  padding-top: 80px;
+}
+.content-container h1 {
+  font-size: 60px;
+  line-height: 80px;
+}
+.content-container h2 {
+  font-size: 18px;
+  font-family: var(--default-font-family);
+}
+.content {
   margin: 30px;
 }
 
@@ -71,7 +89,7 @@ p {
 }
 .btn-branding-outline {
   color: var(--branding-color);
-  border: 1px solid var(--branding-color);
+  border: 2px solid var(--branding-color);
   border-radius: 4px;
   font-size: 18px;
   line-height: 27px;
@@ -81,16 +99,16 @@ p {
   padding: 80px 60px;
 }
 .fitness-image {
-  background: #cbfaf5;
-  padding: 40px 80px;
+  background: var(--secondary-color);
+  padding: 30px;
 }
 .fitness-project {
   font-size: 50px;
 }
 
 .weather-image {
-  background: #cbfaf5;
-  padding: 30px 60px;
+  background: var(--secondary-color);
+  padding: 30px;
 }
 .weather-project {
   font-size: 50px;
