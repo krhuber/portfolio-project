@@ -29,6 +29,10 @@ p {
   font-size: 20px;
   line-height: 30px;
 }
+i {
+  color: var(--branding-color);
+  line-height: 1.5;
+}
 .hero {
   background: var(--secondary-color);
   text-align: center;
@@ -97,8 +101,7 @@ p {
   line-height: 27px;
   padding: 12px 20px;
 }
-.project-description {
-}
+
 .fitness-image {
   background: var(--secondary-color);
   padding: 30px;
