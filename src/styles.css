@@ -66,11 +66,11 @@ p {
 }
 .fitness-image {
   background: #cbfaf5;
-  padding: 40px 150px;
+  padding: 40px 80px;
 }
 .weather-image {
   background: #cbfaf5;
-  padding: 80px 60px;
+  padding: 60px 60px;
 }
 .dictionary-image {
   background: var(--secondary-color);
