@@ -22,10 +22,11 @@ h1 {
   line-height: 1.5;
 }
 h2 {
-  font-size: 64px;
+  font-size: 40px;
 }
+
 p {
-  font-size: 16px;
+  font-size: 20px;
   line-height: 30px;
 }
 .hero {
@@ -35,7 +36,7 @@ p {
 }
 
 .hero p {
-  font-size: 36px;
+  font-size: 45px;
   margin: 0;
   color: #272142;
 }
@@ -43,9 +44,10 @@ p {
   font-family: var(--heading-font-family);
   font-weight: normal;
   line-height: 1.5;
-  font-size: 24px;
+  font-size: 35px;
   color: #272142;
 }
+
 .about-section {
   padding: 160px 20px;
 }
@@ -96,14 +98,13 @@ p {
   padding: 12px 20px;
 }
 .project-description {
-  padding: 80px 60px;
 }
 .fitness-image {
   background: var(--secondary-color);
   padding: 30px;
 }
 .fitness-project {
-  font-size: 50px;
+  font-size: 40px;
 }
 
 .weather-image {
@@ -111,18 +112,18 @@ p {
   padding: 30px;
 }
 .weather-project {
-  font-size: 50px;
+  font-size: 40px;
 }
 .dictionary-image {
   background: var(--secondary-color);
   padding: 30px;
 }
 .dictionary-project {
-  font-size: 50px;
+  font-size: 40px;
 }
 .kathryn-photo {
   margin-top: 50px;
-  width: 320px;
+  max-width: 500px;
   border-radius: 10px;
 }
 
