@@ -73,7 +73,9 @@ footer .open-source {
 footer .open-source-link {
   color: var(--branding-color);
 }
-
+.logo {
+  max-height: 40px;
+}
 .hero {
   background: var(--secondary-color);
   text-align: center;
@@ -174,6 +176,30 @@ footer .open-source-link {
   max-width: 500px;
   border-radius: 10px;
 }
+nav {
+  padding: 20px 0;
+}
+nav ul {
+  padding: 0;
+  margin: 0;
+}
+nav li {
+  display: inline;
+  list-style: none;
+  margin-left: 15px;
+  padding: 5px;
+  border-radius: 3px;
+}
+nav a {
+  text-decoration: none;
+  color: #272142;
+  transition: all 100ms ease-in-out;
+}
+nav a:hover,
+nav li.active a {
+  color: var(--branding-color);
+  text-decoration: underline;
+}
 
 @media (max-width: 900px) {
   h1 {
@@ -201,6 +227,9 @@ footer .open-source-link {
   .project-description {
     padding: 0;
     text-align: center;
+  }
+  nav a {
+    font-size: 14px;
   }
   footer .contact-box {
     padding: 30px;
