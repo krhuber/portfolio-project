@@ -148,7 +148,12 @@ footer .open-source-link {
   background: white;
   color: var(--branding-color);
 }
-
+.maxHeightImg {
+  max-height: 330px;
+}
+.maxHeightImg-work {
+  max-height: 440px;
+}
 .fitness-image {
   background: var(--secondary-color);
   padding: 30px;
