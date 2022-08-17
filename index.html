@@ -4,7 +4,10 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="description" content="" />
+    <meta
+      name="description"
+      content="Kathryn is a front-end engineer based in the USA."
+    />
     <!--Bootstrap CSS-->
     <link
       rel="stylesheet"
@@ -45,6 +48,13 @@
       href="https://fonts.googleapis.com/css2?family=Poppins:wght@500;700&display=swap"
       rel="stylesheet"
     />
+    <!--Google Fonts Aboreto-->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Aboreto&display=swap"
+      rel="stylesheet"
+    />
 
     <!--Font Awesome Code-->
     <script
@@ -60,26 +70,23 @@
   <body>
     <div class="container">
       <nav class="d-flex justify-content-between">
-        <a href="/">
-          <img src="/images/logo.png" class="logo d-none d-md-block" alt="" />
-          <img
-            src="/images/small-logo.jpg"
-            class="logo d-block d-md-none"
-            alt=""
-          />
+        <a href="/" class="logo d-none d-md-block" title="Homepage">
+          Kathryn Huber
         </a>
-        <ul>
+        <a href="/" class="logo d-block d-md-none" title="Homepage">KH</a>
+
+        <ul class="mt-2">
           <li class="active">
-            <a href="/">Home</a>
+            <a href="/" title="Homepage">Home</a>
           </li>
           <li>
-            <a href="/about.html">About</a>
+            <a href="/about.html" title="About Page">About</a>
           </li>
           <li>
-            <a href="/work.html">Work</a>
+            <a href="/work.html" title="Work Page">Work</a>
           </li>
           <li>
-            <a href="/contact.html">Contact</a>
+            <a href="/contact.html" title="Contact Page">Contact</a>
           </li>
         </ul>
       </nav>
@@ -89,7 +96,12 @@
       <h1>Kathryn Huber</h1>
       <h2 class="mb-5">Front-End Developer based in the USA</h2>
       <div>
-        <a href="#" class="btn btn-branding">Contact Me</a>
+        <a
+          href="/contact.html"
+          class="btn btn-branding"
+          title="Contact Me Button"
+          >Contact Me</a
+        >
       </div>
     </div>
     <div class="container">
@@ -97,64 +109,79 @@
       <!--Fitness Project-->
       <div class="row">
         <div class="col-md-4 mb-4">
-          <div class="d-flex justify-content-center">
-            <img
-              src="/images/fitness.png"
-              alt="Fitness Project"
-              class="img-fluid mb-4 fitness-image maxHeightImg"
-            />
-          </div>
+          <a href="/work.html#fitness-project">
+            <div class="d-flex justify-content-center">
+              <img
+                src="/images/fitness.png"
+                alt="Fitness Project Preview"
+                title="Fitness Project Preview"
+                class="img-fluid mb-4 fitness-image maxHeightImg"
+              />
+            </div>
+          </a>
           <div class="project-description">
             <h2 class="fitness-project text-center mb-3">Fitness Project</h2>
             <p class="mb-4 text-center text-muted">Built using HTML and CSS</p>
-            <div>
-              <a href="" class="btn btn-branding-outline d-block text-center"
+            <!-- <div>
+              <a
+                href="/work.html"
+                class="btn btn-branding-outline d-block text-center"
                 >View Project Details</a
               >
-            </div>
+            </div>-->
           </div>
         </div>
 
         <!--Weather Project-->
         <div class="col-md-4 mb-4">
-          <div class="d-flex justify-content-center">
-            <img
-              src="/images/weather.png"
-              alt="Weather Project"
-              class="img-fluid mb-4 weather-image maxHeightImg"
-            />
-          </div>
+          <a href="/work.html#weather-app">
+            <div class="d-flex justify-content-center">
+              <img
+                src="/images/weather.png"
+                alt="Weather Project Preview"
+                title="Weather Project Preview"
+                class="img-fluid mb-4 weather-image maxHeightImg"
+              />
+            </div>
+          </a>
           <div class="project-description">
             <h2 class="weather-project text-center mb-3">Weather App</h2>
-            <p class="mb-4 text-center text-muted">
+            <p class="mb-4 text-center text-muted weather-project-paragraph">
               Built using HTML, more advanced CSS and Javascript, and an active
               API.
             </p>
-            <div>
-              <a href="" class="btn btn-branding-outline d-block text-center"
+            <!--<div>
+              <a
+                href="/work.html"
+                class="btn btn-branding-outline d-block text-center"
                 >View Project Details</a
               >
-            </div>
+            </div> -->
           </div>
         </div>
         <!--Dictionary Project-->
 
         <div class="col-md-4 mb-4">
-          <div class="d-flex justify-content-center">
-            <img
-              src="/images/dictionary.png"
-              alt="Dictionary Project"
-              class="img-fluid mb-4 dictionary-image maxHeightImg"
-            />
-          </div>
+          <a href="/work.html#dictionary-app">
+            <div class="d-flex justify-content-center">
+              <img
+                src="/images/dictionary.png"
+                alt="Dictionary Project Preview"
+                title="Dictionary Project Preview"
+                class="img-fluid mb-4 dictionary-image maxHeightImg"
+              />
+            </div>
+          </a>
           <div class="project-description">
             <h2 class="dictionary-project text-center mb-3">Dictionary App</h2>
             <p class="mb-4 text-center text-muted">Work in progress...</p>
-            <div>
-              <a href="" class="btn btn-branding-outline d-block text-center"
+            <!--  <div>
+              <a
+                href="/work.html"
+                class="btn btn-branding-outline d-block text-center"
                 >View Project Details</a
               >
-            </div>
+            </div>-->
           </div>
         </div>
       </div>
@@ -165,28 +192,42 @@
             <p class="text-muted">Let's work together</p>
           </div>
           <div>
-            <a href="" class="btn btn-branding mt-3">Contact Me</a>
+            <a
+              href="/contact.html"
+              class="btn btn-branding mt-3"
+              title="Contact Kathryn"
+              >Contact Me</a
+            >
           </div>
         </div>
         <div class="d-flex justify-content-center">
           <a
             href="mailto:kr.huber@gmail.com"
             class="email-link d-none d-md-flex"
+            title="Email Kathryn"
           >
             kr.huber@gmail.com</a
           >
         </div>
         <div class="social-links d-flex justify-content-center">
-          <a href="https://github.com/krhuber" target="_blank"
+          <a
+            href="https://github.com/krhuber"
+            target="_blank"
+            title="GitHub Link"
             ><i class="fa-brands fa-github"></i
           ></a>
           <a
             href="https://www.linkedin.com/in/kathryn-huber-6b50192a/"
             target="_blank"
+            title="Kathryn's LinkedIn Page"
           >
             <i class="fa-brands fa-linkedin"></i
           ></a>
-          <a href="https://www.instagram.com/ga_sunflower_design">
+          <a
+            href="https://www.instagram.com/ga_sunflower_design"
+            target="_blank"
+            title="Kathryn's Instagram Page"
+          >
             <i class="fa-brands fa-instagram"></i
           ></a>
         </div>
@@ -195,6 +236,8 @@
           <a
             href="https://github.com/krhuber/portfolio-project"
             class="open-source-link"
+            target="_blank"
+            title="GitHub Link"
             >open sourced</a
           >
         </p>

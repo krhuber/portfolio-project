@@ -4,7 +4,10 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="description" content="" />
+    <meta
+      name="description"
+      content="Kathryn is a front-end developer based in the USA. She has graduated from SheCodes and is now ready to get a job working in front-end development."
+    />
     <!--Bootstrap CSS-->
     <link
       rel="stylesheet"
@@ -46,6 +49,14 @@
       rel="stylesheet"
     />
 
+    <!--Google Fonts Aboreto-->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Aboreto&display=swap"
+      rel="stylesheet"
+    />
+
     <!--Font Awesome Code-->
     <script
       src="https://kit.fontawesome.com/afb07b4a78.js"
@@ -59,51 +70,58 @@
   <body>
     <div class="container">
       <nav class="d-flex justify-content-between">
-        <a href="/">
-          <img src="/images/logo.png" class="logo d-none d-md-block" alt="" />
-          <img
-            src="/images/small-logo.jpg"
-            class="logo d-block d-md-none"
-            alt=""
-          />
+        <a href="/" class="logo d-none d-md-block" title="Homepage">
+          Kathryn Huber
         </a>
-        <ul>
+        <a href="/" class="logo d-block d-md-none" title="Homepage">KH</a>
+        <ul class="mt-2">
           <li>
-            <a href="/">Home</a>
+            <a href="/" title="Homepage">Home</a>
           </li>
           <li class="active">
-            <a href="/about.html">About</a>
+            <a href="/about.html" title="About Page">About</a>
           </li>
           <li>
-            <a href="/work.html">Work</a>
+            <a href="/work.html" title="Work Page">Work</a>
           </li>
           <li>
-            <a href="/contact.html">Contact</a>
+            <a href="/contact.html" title="Contact Page">Contact</a>
           </li>
         </ul>
       </nav>
     </div>
     <div class="about-section">
       <div class="row">
-        <div class="col-lg-6">
-          <div class="about-section-container">
-            <h1 class="mb-4">Hi, I am Kathryn Huber</h1>
-            <h2 class="mb-4">Front-End Developer, based in the USA</h2>
-            <p class="mb-4">
-              For anyone who wants to start learning code, this workshop is very
-              interesting. You will be challenged with different exercises, and
-              everything is well explained, homework and deadlines are good for
-              keep focus
-            </p>
-            <a href="" class="btn btn-branding">My Projects</a>
-          </div>
-        </div>
-        <div class="col-lg-6">
+        <div class="col-lg-5">
           <img
             src="/images/kathryn.JPG"
             class="kathryn-photo img-fluid"
             alt="Kathryn Photo"
           />
+        </div>
+
+        <div class="col-lg-7">
+          <div class="about-section-container">
+            <h1 class="mb-4">Hi, I am Kathryn Huber</h1>
+            <h2 class="mb-4">Front-End Developer, based in the USA</h2>
+            <p class="mb-4 about-me-paragraph">
+              I have worked for the past 10 years in the steel industry and have
+              experience in Purchasing, Sales and Product Management. I worked
+              for the same company my entire career since I graduated college,
+              and this year I decided I needed a change. I have been studing
+              front-end developement with
+              <a
+                href="https://www.shecodes.io"
+                target="_blank"
+                class="shecodes-link"
+                >SheCodes</a
+              >
+              and I am excited to see where this career transition takes me in
+              the future! Please follow the link below to take a look at my
+              projects I have worked on so far.
+            </p>
+            <a href="/work.html" class="btn btn-branding">My Projects</a>
+          </div>
         </div>
       </div>
       <footer>
@@ -113,28 +131,42 @@
             <p class="text-muted">Let's work together</p>
           </div>
           <div>
-            <a href="" class="btn btn-branding mt-3">Contact Me</a>
+            <a
+              href="/contact.html"
+              class="btn btn-branding mt-3"
+              title="Contact Kathryn"
+              >Contact Me</a
+            >
           </div>
         </div>
         <div class="d-flex justify-content-center">
           <a
             href="mailto:kr.huber@gmail.com"
             class="email-link d-none d-md-flex"
+            title="Email Kathryn"
           >
             kr.huber@gmail.com</a
           >
         </div>
         <div class="social-links d-flex justify-content-center">
-          <a href="https://github.com/krhuber" target="_blank"
+          <a
+            href="https://github.com/krhuber"
+            target="_blank"
+            title="GitHub Link"
             ><i class="fa-brands fa-github"></i
           ></a>
           <a
             href="https://www.linkedin.com/in/kathryn-huber-6b50192a/"
             target="_blank"
+            title="Kathryn's LinkedIn Page"
           >
             <i class="fa-brands fa-linkedin"></i
           ></a>
-          <a href="https://www.instagram.com/ga_sunflower_design">
+          <a
+            href="https://www.instagram.com/ga_sunflower_design"
+            target="_blank"
+            title="Kathryn's Instagram Page"
+          >
             <i class="fa-brands fa-instagram"></i
           ></a>
         </div>
@@ -143,6 +175,8 @@
           <a
             href="https://github.com/krhuber/portfolio-project"
             class="open-source-link"
+            target="_blank"
+            title="GitHub Link"
             >open sourced</a
           >
         </p>
