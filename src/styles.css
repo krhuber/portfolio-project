@@ -99,18 +99,18 @@ footer .open-source-link {
 }
 
 .about-section {
-  margin: 20px 106px;
+  margin: 10px 106px;
 }
 .about-section h1 {
-  font-size: 60px;
-  line-height: 80px;
+  font-size: 44px;
+  line-height: 60px;
 }
 .about-section h2 {
-  font-size: 25px;
+  font-size: 20px;
   font-family: var(--default-font-family);
 }
 .about-section-container {
-  margin: 50px;
+  margin: 35px;
 }
 .about-me-paragraph {
   opacity: 0.7;
